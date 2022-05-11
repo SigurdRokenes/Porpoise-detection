@@ -14,9 +14,9 @@ Compiled .exe (no installation requirered) can be downloaded from:
 3) Download model from here:
 
 
-###### Download link (TODO)
+    ###### Download link (TODO)
 
-4) Un-zip and place `models/` folder inside the Porpoise-Detection folder.
+4) Un-zip and place `models/` folder inside the `Porpoise-Detection` folder.
 
 5) Create a python environment with the required dependencies:
 
