@@ -11,15 +11,22 @@ Compiled .exe (no installation requirered) can be downloaded from:
 
 2) Download / clone this repo, and open a command prompt in this location.
 
-3) Create a python environment with the required dependencies:
+3) Download model from here:
+
+
+###### Download link (TODO)
+
+4) Un-zip and place `models/` folder inside the Porpoise-Detection folder.
+
+5) Create a python environment with the required dependencies:
 
     `conda env create -f requirements.yml`
-
-4) Activate the new environment when installation is done.
+ 
+6) Activate the new environment when installation is done.
 
    `conda activate tf_gpu`
 
-5) Run the program
+7) Run the program
 
     `python run.py`
  
