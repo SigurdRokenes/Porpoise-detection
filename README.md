@@ -55,3 +55,8 @@ Compiled .exe (no installation requirered) can be downloaded from:
 
 1) The result from this classification will be a video. This sets the number of classified images per second shown in a result video.
 2) Sets the number of seconds (in the video) between each image that should be classified. Default value is zero, which classifies every frame of the video.
+
+
+## Thanks to
+1) TheAIGuys work on converting YOLO to Tensorflow. (https://github.com/theAIGuysCode/tensorflow-yolov4-tflite)
+2) AlexeyB Darknet YOLOv4 (https://github.com/AlexeyAB/darknet)
