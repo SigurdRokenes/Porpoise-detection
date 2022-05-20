@@ -19,7 +19,7 @@ class SaveOptions(QDialog):
         self.output_fps.setMinimum = 1
         self.output_fps.setMaximum = 60
 
-        sampling_text = QLabel('Sample interval from video (seconds). 0 = Not sampling. (default: 0)')
+        sampling_text = QLabel('Sample interval from video (seconds). 0 = Not sampling.')
         self.output_samplerate = QSpinBox()
         self.output_samplerate.setValue(0)
         self.output_samplerate.setMinimum = 0

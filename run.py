@@ -1,9 +1,9 @@
-import sys, os
+import sys
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-import time
-import tensorflow as tf
+#import time
+#import tensorflow as tf
 
 from ui.config import *
 from ui.Sliders import *
@@ -150,7 +150,7 @@ class ImageWindow(QWidget):
         self.show_check.stateChanged.connect(lambda:self.rad_btn(self.show_check))
 
 
-        self.save_check= QCheckBox('Save Video')
+        self.save_check= QCheckBox('Save Images')
         self.save_check.setChecked(False)
         self.save_check.stateChanged.connect(lambda:self.rad_btn(self.save_check))
 
@@ -373,11 +373,11 @@ class VideoWindow(QWidget):
 
         if b.text() == 'Show sampled images while processing':
             if b.isChecked() == True:
-                print('It is now True')
+                #print('It is now True')
                 self.show_images = False
             
             elif b.isChecked() == False:
-                print('It is now false')
+                #print('It is now false')
                 self.show_images = True
 
     def classify_video(self):
@@ -407,7 +407,7 @@ if __name__ == '__main__':
     app.setStyle('Fusion')
     
     if load_model_fortesting:
-        print('Load model')
+        #print('Load model')
         MODEL = load_model()
         ex.modelLoadedText.setText('Model Loaded successfully')
     sys.exit(app.exec_())
