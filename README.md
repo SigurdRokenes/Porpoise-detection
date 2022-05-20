@@ -14,7 +14,7 @@ Compiled .exe (no installation requirered) can be downloaded from:
 3) Download model from here:
 
 
-    ###### Download link (TODO)
+    ###### [Download Link](https://drive.google.com/drive/folders/1eLdVz99Z16dVR5mH6izrTk8TNoQ7kHnR?usp=sharing)
 
 4) Un-zip and place `models/` folder inside the `Porpoise-Detection` folder.
 
