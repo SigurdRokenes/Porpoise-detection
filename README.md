@@ -9,7 +9,7 @@ Compiled .exe (no installation requirered) can be downloaded from:
 ## Installation from source
 1) Install Anaconda3 or Miniconda3.
 
-2) Download / clone this repo, and open a command prompt in this location.
+2) Download / clone this repo. If Anaconda was added to PATH, open a powershell/command prompt here. If Anaconda was not added to path, open Anaconda Prompt and use `cd folder_location` where folder_location is where this repo was saved.
 
 3) Download model from here:
 
