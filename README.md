@@ -4,7 +4,7 @@ YOLOv4 model trained to detect porpoises from drone images. GUI for easy use.
 
 Compiled .exe (no installation requirered) can be downloaded from:
 
-###### Download link (TODO)
+###### [Download link](https://drive.google.com/drive/folders/1SGsa7vdp4p77DeHfKC_aep3VvmZWLdlI?usp=sharing)
 
 ## Installation from source
 1) Install Anaconda3 or Miniconda3.
